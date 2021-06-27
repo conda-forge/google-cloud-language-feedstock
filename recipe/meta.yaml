@@ -28,7 +28,7 @@ test:
   imports:
     - google.cloud.language
     - google.cloud.language_v1
-    - google.cloud.language__v1beta2
+    - google.cloud.language_v1beta2
     - grpc
 
 about:

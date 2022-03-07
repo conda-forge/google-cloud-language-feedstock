@@ -1,5 +1,5 @@
 {% set name = "google-cloud-language" %}
-{% set version = "2.4.0" %}
+{% set version = "2.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 66a9f0be95df58611cfb288898d1911945d524688dcc615e3129a39fb333b901
+  sha256: 061410e1067b19b69c8e92cb8392d79b583922120c937b49743ac764baaeb939
 
 build:
   number: 0

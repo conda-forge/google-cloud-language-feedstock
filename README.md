@@ -185,4 +185,5 @@ Feedstock Maintainers
 
 * [@BrentDorsey](https://github.com/BrentDorsey/)
 * [@parthea](https://github.com/parthea/)
+* [@xylar](https://github.com/xylar/)
 

@@ -1,8 +1,6 @@
 provider:
   win: azure
 conda_forge_output_validation: true
-bot:
-  automerge: true
 github:
   branch_name: main
   tooling_branch_name: main

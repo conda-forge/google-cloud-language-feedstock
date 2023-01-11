@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-language-feedstock/blob/main/LICENSE.txt)
 
-Summary: Python Client for Google Cloud Natural Language
+Summary: Google Cloud Language API client library
 
 Development: https://github.com/googleapis/python-language
 

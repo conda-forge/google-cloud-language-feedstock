@@ -1,11 +1,11 @@
-About google-cloud-language
-===========================
+About google-cloud-language-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-language-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-language
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-language-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Cloud Language API client library
 

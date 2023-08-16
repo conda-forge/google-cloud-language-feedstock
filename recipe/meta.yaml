@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-language
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Language API client library
   license: Apache-2.0
   license_family: Apache

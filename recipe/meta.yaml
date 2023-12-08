@@ -1,5 +1,5 @@
 {% set name = "google-cloud-language" %}
-{% set version = "2.11.1" %}
+{% set version = "2.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-language-{{ version }}.tar.gz
-  sha256: 5f184409f040c0c73057c2616e6bd2e86e45aeb646180d19c189df4aa3d02dba
+  sha256: 79fb8efe158333e68c05747e9ea86b598b2f429a12f37149d83ac6fa1845962a
 
 build:
   noarch: python
@@ -75,8 +75,8 @@ about:
     Python >= 3.6
 
 
-  doc_url: https://googleapis.dev/python/language/latest/index.html
-  dev_url: https://github.com/googleapis/python-language
+  doc_url: https://cloud.google.com/python/docs/reference/language/latest
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-language
 
 extra:
   recipe-maintainers:

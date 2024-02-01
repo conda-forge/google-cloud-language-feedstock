@@ -9,9 +9,9 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Language API client library
 
-Development: https://github.com/googleapis/python-language
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-language
 
-Documentation: https://googleapis.dev/python/language/latest/index.html
+Documentation: https://cloud.google.com/python/docs/reference/language/latest
 
 Python Client for Google Cloud Natural Language
 -------------------------

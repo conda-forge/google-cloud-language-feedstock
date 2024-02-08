@@ -1,5 +1,5 @@
 {% set name = "google-cloud-language" %}
-{% set version = "2.13.0" %}
+{% set version = "2.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-language-{{ version }}.tar.gz
-  sha256: 9211a669f47abb7e89281aed8154e957c790e78d5a22b80fefe373f61aed42a5
+  sha256: f1953d6893d35cd43d08b2b5520c165a700e4ade7ce25ca2284017890b0e5a15
 
 build:
   noarch: python
@@ -19,10 +19,11 @@ requirements:
     - python >=3.7
     - pip
   run:
+    - google-auth >=2.14.1,<3.0.0dev
     - python >=3.7
     - google-api-core >=1.34.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,!=2.10.*
     - google-api-core-grpc
-    - proto-plus >=1.22.0,<2.0.0dev
+    - proto-plus >=1.22.3,<2.0.0dev
     - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
 
 test:

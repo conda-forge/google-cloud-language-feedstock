@@ -3,7 +3,7 @@ About google-cloud-language-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-language-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/google-cloud-python
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-language
 
 Package license: Apache-2.0
 
@@ -12,42 +12,6 @@ Summary: Google Cloud Language API client library
 Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-language
 
 Documentation: https://cloud.google.com/python/docs/reference/language/latest
-
-Python Client for Google Cloud Natural Language
--------------------------
-
-The [Google Cloud Natural Language](https://cloud.google.com/natural-language/) API can be used to reveal the
-structure and meaning of text via powerful machine
-learning models. You can use it to extract information about
-people, places, events and much more, mentioned in text documents,
-news articles or blog posts. You can use it to understand
-sentiment about your product on social media or parse intent from
-customer conversations happening in a call center or a messaging
-app. You can analyze text uploaded in your request or integrate
-with your document storage on Google Cloud Storage.
-
-- [Client Library Documentation](https://googleapis.dev/python/language/latest/index.html)
-- [Product Documentation](https://cloud.google.com/language/docs)
-
-**note**
-
-    This library currently does not run on Google App Engine Standard.
-    We are actively working on adding this support.
-
-Quick Start
------------
-
-In order to use this library, you first need to go through the following steps:
-
-1. [Select or create a Cloud Platform project.](https://console.cloud.google.com/project)
-2. [Enable billing for your project.](https://cloud.google.com/billing/docs/how-to/modify-project#enable_billing_for_a_project)
-3. [Enable the Google Cloud Language API.](https://cloud.google.com/natural-language)
-4. [Setup Authentication.](https://googleapis.github.io/google-cloud-python/latest/core/auth.html)
-
-Supported Python Versions
------------
-Python >= 3.6
-
 
 Current build status
 ====================

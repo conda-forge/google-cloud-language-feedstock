@@ -8,3 +8,5 @@ github:
   tooling_branch_name: main
 provider:
   win: azure
+conda_install_tool: pixi
+conda_build_tool: rattler-build

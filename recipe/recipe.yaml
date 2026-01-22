@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-language
-  version: 2.18.0
+  version: "2.19.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_language-${{ version }}.tar.gz
-  sha256: 75b9535f6b424c9c08fe1ef5d7cce42932591a80da73a1da72c591dfdc69c41e
+  sha256: 3b88f6eabd1c2413a1c6c918cbe40a22a5d14401930309717dbb709b353c6c64
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 

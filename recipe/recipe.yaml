@@ -24,7 +24,7 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - google-api-core >=2.11.0,<3.0.0
+    - google-api-core >=2.17.1,<3.0.0
     - google-api-core-grpc
     - google-auth >=2.14.1,<3.0.0,!=2.24.0,!=2.25.0
     # more restrictive constraint for python >=3.14
@@ -37,7 +37,9 @@ tests:
   - python:
       imports:
         - google.cloud.language
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
       pip_check: true
 
 about:
